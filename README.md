@@ -12,12 +12,11 @@ Features
 
 Available Commands:
 
-1. cd: Change directory.
-          cd command Options:
-          -u, --up       : Move up one level in the directory hierarchy.
-          ~              : Move to the root directory.
-          -l, --list     : List contents of the current directory.
-          --help, -h     : Display this help message.
+1. cd: Change Directory
+   ->cd -u or cd --up: Move up one level in the directory hierarchy.
+   ->cd ~: Move to the root directory.
+   ->cd -l or cd --list: List contents of the current directory.
+   ->cd --help or cd -h: Display help message.
 3. ls: List directory contents.
        ls command Options:
       -r             : List subdirectories recursively.
