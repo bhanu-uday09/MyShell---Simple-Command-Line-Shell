@@ -13,40 +13,40 @@ Features
 Available Commands:
 
 1. cd: Change directory.
-       cd command Options:
-      -u, --up       : Move up one level in the directory hierarchy.
-      ~              : Move to the root directory.
-      -l, --list     : List contents of the current directory.
-      --help, -h     : Display this help message.
-2. ls: List directory contents.
+          cd command Options:
+          -u, --up       : Move up one level in the directory hierarchy.
+          ~              : Move to the root directory.
+          -l, --list     : List contents of the current directory.
+          --help, -h     : Display this help message.
+3. ls: List directory contents.
        ls command Options:
       -r             : List subdirectories recursively.
       --hidden       : Include hidden files and directories.
       --size         : Display file sizes.
       --sort         : Sort entries alphabetically.
       --help         : Display this help message.
-3. mv: Move files or directories.
+4. mv: Move files or directories.
        mv command Options:
       -r             : Move directories recursively.
       -rt            : Move directories recursively with Threading.
       -i             : Prompt before overwriting files.
       -b             : Create a backup of the destination file.
       --help         : Display this help message.
-4. cp: Copy files or directories.
+5. cp: Copy files or directories.
        cp command Options:
       -r             : Copy directories recursively
       -rt            : Copy directories recursively with Threading
       -i             : Prompt before overwriting files
       -b             : Create a backup of the destination file
       --help         : Display this help message
-5. rm: Remove files or directories.
+6. rm: Remove files or directories.
        rm command Options:
       -r,            : remove directories and their contents recursively
       -f             : ignore nonexistent files and arguments, never prompt
       -b             : create backups of removed files with a .bak extension
       -v             : explain what is being done
       -h, --help     : display this help and exit
-6. exit: Exit the shell.
+7. exit: Exit the shell.
 
 # Profiling
 
