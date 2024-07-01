@@ -1,5 +1,3 @@
-# OOPD_Project
-
 # MyShell - Simple Command Line Shell
 MyShell is a basic command line shell implemented in C++ using the filesystem library. It provides a set of commands for file and directory manipulation.
 
